@@ -286,7 +286,7 @@ installgems()
     gem install httpclient ${GEMOPT}
     gem install posixpsutil ${GEMOPT}
     # This is for the unit testing framework.
-    gem install simplecov ${GEMOPT}
+    gem install simplecov ${GEMOPT} -v 0.17.1
 }
 
 postinstallnginx()
